@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/room-homepage/static/css/main.073c9b0a.css",
-    "main.js": "/room-homepage/static/js/main.14ba96be.js",
-    "static/js/787.299aac3f.chunk.js": "/room-homepage/static/js/787.299aac3f.chunk.js",
-    "static/media/logo.svg": "/room-homepage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/room-homepage/static/css/main.a7a6223c.css",
+    "main.js": "/room-homepage/static/js/main.fa6092c6.js",
+    "static/media/desktop-image-hero-1.jpg": "/room-homepage/static/media/desktop-image-hero-1.91901d0d47ea68db9434.jpg",
+    "static/media/desktop-image-hero-3.jpg": "/room-homepage/static/media/desktop-image-hero-3.05fd679aa0d31e01c176.jpg",
+    "static/media/desktop-image-hero-2.jpg": "/room-homepage/static/media/desktop-image-hero-2.9d35405672f4fca67945.jpg",
+    "static/media/mobile-image-hero-1.jpg": "/room-homepage/static/media/mobile-image-hero-1.5de3d1472db703fb2f8a.jpg",
+    "static/media/mobile-image-hero-2.jpg": "/room-homepage/static/media/mobile-image-hero-2.51db290a00388a5a0bea.jpg",
+    "static/media/image-about-dark.jpg": "/room-homepage/static/media/image-about-dark.329bbc446c27ddf69d0f.jpg",
+    "static/media/mobile-image-hero-3.jpg": "/room-homepage/static/media/mobile-image-hero-3.601d0f37f7ff5e62008c.jpg",
+    "static/media/logo.svg": "/room-homepage/static/media/logo.8fad054264a8e979d2bbe8ac73867178.svg",
     "index.html": "/room-homepage/index.html",
-    "main.073c9b0a.css.map": "/room-homepage/static/css/main.073c9b0a.css.map",
-    "main.14ba96be.js.map": "/room-homepage/static/js/main.14ba96be.js.map",
-    "787.299aac3f.chunk.js.map": "/room-homepage/static/js/787.299aac3f.chunk.js.map"
+    "static/media/icon-close.svg": "/room-homepage/static/media/icon-close.3e88bd6e1dd859233d65f8222e8ccb74.svg",
+    "static/media/icon-arrow.svg": "/room-homepage/static/media/icon-arrow.84087786c5e572d7f27f2672642badd5.svg",
+    "static/media/icon-hamburger.svg": "/room-homepage/static/media/icon-hamburger.dc022bac537a273572af58dec556ed7e.svg",
+    "static/media/icon-angle-left.svg": "/room-homepage/static/media/icon-angle-left.d53877dfd9c6774a68749ad0239b4ce1.svg",
+    "static/media/icon-angle-right.svg": "/room-homepage/static/media/icon-angle-right.0ed3f81fbd14b3bd61d875b7df144e4c.svg",
+    "main.a7a6223c.css.map": "/room-homepage/static/css/main.a7a6223c.css.map",
+    "main.fa6092c6.js.map": "/room-homepage/static/js/main.fa6092c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.14ba96be.js"
+    "static/css/main.a7a6223c.css",
+    "static/js/main.fa6092c6.js"
   ]
 }
