@@ -1,0 +1,36 @@
+main{
+    img{
+        width: 100%;
+    }
+    .main-content{
+        padding: 4rem 2rem;
+        width: 100%;
+        h1{
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.3rem;
+        }
+        p{
+            margin-top: 1.7rem;
+            font-size: 1.2rem;
+            color: $Dark-Gray;
+            line-height: 1.4rem;
+        }
+    }
+}
+//-------------------------------------------
+@include desktop {
+    main{
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
+        img{
+            height: 266px;
+        }
+        .main-content{
+            height: fit-content;
+            padding: 3rem 2rem;
+            height: 266px;
+
+        }
+    }
+}

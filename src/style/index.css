@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+}
+
+header .first-div {
+  width: 100%;
+  min-height: 45vh;
+  background-repeat: no-repeat;
+  background-size: 100% 45vh;
+  text-align: center;
+  padding: 3rem 0;
+  position: relative;
+}
+
+header .first-div nav {
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+}
+
+header .first-div nav .dropback {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  -webkit-animation: from-top 0.4s linear;
+          animation: from-top 0.4s linear;
+  background-color: #45454559;
+  display: none;
+}
+
+header .first-div nav .dropback ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  background-color: white;
+}
+
+header .first-div nav .dropback ul .close {
+  margin-right: 2.8rem;
+}
+
+header .first-div nav .display-none {
+  display: block;
+}
+
+header .first-div .control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+header .first-div .control div {
+  background-color: black;
+  padding: 0.8rem 1.5rem;
+}
+
+header .seconed-div {
+  min-height: 45vh;
+  width: 100%;
+  padding: 4rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+
+header .seconed-div h1 {
+  font-size: 1.8rem;
+}
+
+header .seconed-div P {
+  font-size: 1.12rem;
+  line-height: 1.4rem;
+  color: #a1a1a1;
+}
+
+header .seconed-div .shop-now {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+header .seconed-div .shop-now h2 {
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+}
+
+@media (min-width: 1200px) {
+  header {
+    min-height: 45vh;
+    width: 100;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% 40%;
+        grid-template-columns: 60% 40%;
+  }
+  header .first-div {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    height: 534px;
+    background-size: 100% 100%;
+    text-align: start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2rem;
+    padding: 3rem;
+  }
+  header .first-div .logo {
+    width: 15%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 1rem;
+  }
+  header .first-div .logo img {
+    width: 100%;
+  }
+  header .first-div nav {
+    position: initial;
+    width: 40%;
+  }
+  header .first-div nav .ham {
+    display: none;
+  }
+  header .first-div nav .dropback {
+    position: initial;
+    display: initial;
+  }
+  header .first-div nav .dropback ul {
+    padding: 1rem;
+    background-color: transparent;
+    color: white;
+  }
+  header .first-div nav .dropback ul li {
+    font-size: 1.3rem;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+  }
+  header .first-div nav .dropback ul li:hover::before {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 0.2rem;
+    bottom: -1rem;
+    left: 50%;
+    background-color: white;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  header .first-div nav .dropback ul .close {
+    display: none;
+  }
+  header .first-div .control {
+    bottom: 0%;
+    right: 0%;
+    left: 100%;
+  }
+  header .first-div .control div {
+    padding: 1.8rem 2rem;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  header .first-div .control div:hover {
+    background-color: #000000b3;
+  }
+  header .seconed-div {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    padding: 4rem 6.5rem;
+  }
+  header .seconed-div h1 {
+    font-size: 2.4rem;
+  }
+  header .seconed-div .shop-now {
+    cursor: pointer;
+  }
+  header .seconed-div .shop-now h2 {
+    letter-spacing: 0.7rem;
+  }
+}
+
+@-webkit-keyframes from-top {
+  0% {
+    -webkit-transform: translate(0%, -100%);
+            transform: translate(0%, -100%);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
+@keyframes from-top {
+  0% {
+    -webkit-transform: translate(0%, -100%);
+            transform: translate(0%, -100%);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
+main img {
+  width: 100%;
+}
+
+main .main-content {
+  padding: 4rem 2rem;
+  width: 100%;
+}
+
+main .main-content h1 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+main .main-content p {
+  margin-top: 1.7rem;
+  font-size: 1.2rem;
+  color: #a1a1a1;
+  line-height: 1.4rem;
+}
+
+@media (min-width: 1200px) {
+  main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 40% 30%;
+        grid-template-columns: 30% 40% 30%;
+  }
+  main img {
+    height: 266px;
+  }
+  main .main-content {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 3rem 2rem;
+    height: 266px;
+  }
+}
+
+footer {
+  background-color: #454545;
+  text-align: center;
+  padding: 2rem 0;
+  color: white;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+footer a:hover::before {
+  content: '';
+  width: 70%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: -1.2rem;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+/*# sourceMappingURL=index.css.map */
